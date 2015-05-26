@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Αρετή Παζιώτου - Αρχιτέκτων</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="main.css">
+  	<script src="contentWindowAutoSizing.js"></script>
+
+</head>
+<body>
+	<div class="header_container text-center">
+		<h1> <b>Αρετή Παζιώτου</b> </h1>
+	</div>
+
+	<div class="row">
+		<!-- menu div -->
+		<div class="menu col-md-2 text-center">
+			<!--
+				<div class="row"> <p>Αρχική</p> </div>
+			<div class="row"></div>
+			<div class="row"> <p>Επιλογή Έργων</p> </div>
+			<div class="row"> <p>Επικοινωνία</p> </div>
+			-->	
+			 <a href="main.html"><p>Αρχική</p></a> 
+			 <a href="worksOverall.html"><p>Επιλογή Έργων</p></a>
+			 <a href="contact.html"><p>Επικοινωνία</p></a> 
+		</div>
+
+		<!-- content div -->
+		<div class="col-md-10 text-center">
+			<p>Φόρμα επικοινωνίας</p>
+			<form enctype="multipart/form-data" action="register_script.php" method="post">
+				<p>Email : <input type="mail"> </p>  
+				<p>Message : <textarea name="message" placeholder="Συμπληρώστε το μήνυμα σας εδώ..."></textarea> </p>
+				<input type="submit" value="Αποστολή">
+			</form>
+		</div>
+	</div>
+
+	<footer class="text-center"> <p>Developed &amp; co_designed and by Niko Strongioglou</p> </footer>
+
+</body>
+</html>

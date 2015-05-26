@@ -1,0 +1,42 @@
+body{
+	
+	font-family: AC-Poiret;
+}
+
+
+@font-face{
+	font-family: AC-Poiret;
+	src:url(ACPoiret/AC-Poiret.otf);
+}
+
+.header_container h1{
+	margin-bottom: 30px;
+	font-size: 60px;
+}
+
+/*.row .menu .col-md-2 p{
+	padding-left: 10px;
+}*/
+
+.col-md-2{
+	width: 150px;
+}
+
+a{
+	color: inherit;
+}
+
+ .col-md-2 p:hover{
+	cursor: pointer;
+}
+
+.col-md-10{
+	background-image: url("x2_opaque.jpg");
+	background-size: fit;
+	padding: 20px 10px 10px 20px;
+}
+
+footer{
+	margin-top: 30px;
+	font-size: 10px;
+}

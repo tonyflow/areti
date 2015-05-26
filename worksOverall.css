@@ -1,0 +1,12 @@
+img{
+	width: 85%;
+	height: 85%;
+}
+
+img:hover{
+	opacity: 0.6;
+}
+
+#description{
+	margin-top: 15px;
+}

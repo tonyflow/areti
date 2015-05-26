@@ -1,0 +1,31 @@
+#thumbnails img{
+	height: 35px;
+	width: 35px;
+}
+
+#thumbnails img:hover{
+	cursor: pointer;
+}
+
+#enlarged_thumbnail img{
+	max-width: 85%;
+	max-height: 85%;
+	vertical-align: middle;
+}
+
+#enlarged_thumbnail .row .col-md-2{
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+}
+
+#enlarged_thumbnail .row .col-md-2 img{
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+}
+
+#enlarged_thumbnail .row .col-md-2 img:hover{
+	cursor: pointer;
+
+}

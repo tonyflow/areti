@@ -8,9 +8,13 @@
 }
 
 #enlarged_thumbnail img{
+	/*
 	max-width: 85%;
 	max-height: 85%;
 	vertical-align: middle;
+	 */
+	height: auto;
+	width: 85%;	
 }
 
 #enlarged_thumbnail .row .col-md-2{

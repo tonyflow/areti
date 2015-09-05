@@ -8,7 +8,7 @@
   	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   	<link rel="stylesheet" type="text/css" href="main.css">
   	<link rel="stylesheet" type="text/css" href="works.css">
-  	<script src="contentWindowAutoSizing.js"></script>
+  	<!--<script src="contentWindowAutoSizing.js"></script>-->
   	<script type="text/javascript">
 
   		$(document).ready(function(){
@@ -63,11 +63,11 @@
 		</div>
 
 		<!-- content div -->
-		<div class="col-md-10">
+		<div id="side_container" class="col-md-10">
 			<div class="row">
 				<!-- div containing work description -->
 				<div class="col-md-3">
-					<p>Είναι μια νέα κατοικία στου Παπάγου, η οποία αποτελείται απο 4 ορόφους και 2 υπόγεια και πισίνα στον υπαίθριο χώρο</p>
+					<!--<p>Είναι μια νέα κατοικία στου Παπάγου, η οποία αποτελείται απο 4 ορόφους και 2 υπόγεια και πισίνα στον υπαίθριο χώρο</p>-->
 				</div>
 				<!-- div containing thumbnails corresponding to each work -->
 				<div id="thumbnails" class="col-md-2">
@@ -106,19 +106,24 @@
 							<img src="actualPics/papagou/1.jpg">
 						</div>
 					</div>
-					<div class="row">
+					<div class="row ">
 
-						<div class="col-md-2">
-							<img src="arrows/leftArrow.png">
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-12 ">
+									<img id="arrow" src="arrows/left_arrow_b.png">
+								</div>
+							</div>
+							
 						</div>
 
-						<div class="col-md-2"></div>
-						<div class="col-md-2"></div>
-						<div class="col-md-2"></div>
-						<div class="col-md-2"></div>
 
-						<div class="col-md-2">
-							<img src="arrows/rightArrow.png">
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-12">
+									<img id="arrow"  src="arrows/right_arrow_b.png">
+								</div>
+							</div>
 						</div>
 
 					</div>

@@ -8,15 +8,11 @@
   	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   	<link rel="stylesheet" type="text/css" href="main.css">
   	<link rel="stylesheet" type="text/css" href="works.css">
-  	<script src="contentWindowAutoSizing.js"></script>
   	<script type="text/javascript">
 
   		$(document).ready(function(){
 			
-			alert("content window's height is :: "+$("#enlarged_thumbnail .row .col-md-12").height());
-			alert("content window's width is :: "+$("#enlarged_thumbnail .row .col-md-12").width());
-			alert("content img's height is :: "+$("#enlarged_thumbnail .row .col-md-12 img").height());
-			alert("content img's width is :: "+$("#enlarged_thumbnail .row .col-md-12 img").width());
+			
 
   			$("#thumbnails img").click(function(){
   				$("#enlarged_thumbnail .row .col-md-12 img:last-child").remove();
@@ -67,7 +63,7 @@
 			<div class="row">
 				<!-- div containing work description -->
 				<div class="col-md-3">
-					<p>Είναι μια νέα κατοικία στου Παπάγου, η οποία αποτελείται απο 4 ορόφους και 2 υπόγεια και πισίνα στον υπαίθριο χώρο</p>
+					<!--<p>Είναι μια νέα κατοικία στου Παπάγου, η οποία αποτελείται απο 4 ορόφους και 2 υπόγεια και πισίνα στον υπαίθριο χώρο</p>-->
 				</div>
 				<!-- div containing thumbnails corresponding to each work -->
 				<div id="thumbnails" class="col-md-2">

@@ -12,28 +12,16 @@
 
   		$(document).ready(function(){
 			
-			
-
+  			//todo ----> RUN AUTORISIZE ON CLICK <------------------
   			$("#thumbnails img").click(function(){
   				$("#enlarged_thumbnail .row .col-md-12 img:last-child").remove();
   				var src=$(this).attr('src');
-  				$("#enlarged_thumbnail .row .col-md-12").prepend('<img class="img-responsive" src="'+src+'">');
+  				$("#enlarged_thumbnail .row .col-md-12").prepend('<img src="'+src+'">');
   				$("#enlarged_thumbnail .row .col-md-12 img").css("display","none");
   				/*
   				$("#enlarged_thumbnail img").css("width",$(".col-md-7").width() - 10);
   				$("#enlarged_thumbnail img").css("height",$(".col-md-7").height() - 10);
 				*/
-
-				/*
-				var widthRatio=$("#enlarged_thumbnail .row .col-md-12 img").width()/$("#enlarged_thumbnail .row .col-md-12").width();
-				var heightRatio=$("#enlarged_thumbnail .row .col-md-12 img").height()/$("#enlarged_thumbnail .row .col-md-12").height();
-
-				$("#enlarged_thumbnail .row .col-md-12 img").css("width",$("#enlarged_thumbnail .row .col-md-12 img").width()*widthRatio);
-				$("#enlarged_thumbnail .row .col-md-12 img").css("height",$("#enlarged_thumbnail .row .col-md-12 img").height()*heightRatio);
-				*/
-
-				
-
   				$("#enlarged_thumbnail img").fadeIn(3000);
   			});
   		});
@@ -67,14 +55,19 @@
 				</div>
 				<!-- div containing thumbnails corresponding to each work -->
 				<div id="thumbnails" class="col-md-2">
-					<img src="actualPics/epaggelmatikoiChoroi/kommotirio/1.jpg">
-					
+					<img src="actualPics/esoterikDiamorfosiAnakenisi/alejandros/1.jpg">
+					<img src="actualPics/esoterikDiamorfosiAnakenisi/alejandros/2.jpg">
+					<img src="actualPics/esoterikDiamorfosiAnakenisi/alejandros/3.jpg">
+					<img src="actualPics/esoterikDiamorfosiAnakenisi/alejandros/4.jpg">
+					<img src="actualPics/esoterikDiamorfosiAnakenisi/alejandros/5.JPG">
+					<img src="actualPics/esoterikDiamorfosiAnakenisi/alejandros/6.jpg">
+					<img src="actualPics/esoterikDiamorfosiAnakenisi/alejandros/7.JPG">
 				</div>
 				<!-- div containing enlarged thumbnails -->
 				<div id="enlarged_thumbnail" class="col-md-7 text-center">
 					<div class="row">
 						<div class="col-md-12">
-							<img src="actualPics/epaggelmatikoiChoroi/kommotirio/1.jpg">
+							<img src="actualPics/esoterikDiamorfosiAnakenisi/alejandros/1.jpg">
 						</div>
 					</div>
 					<div class="row">

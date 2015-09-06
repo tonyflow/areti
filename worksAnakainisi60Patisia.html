@@ -55,40 +55,63 @@
 				</div>
 				<!-- div containing thumbnails corresponding to each work -->
 				<div id="thumbnails" class="col-md-2">
-					<img src="actualPics/esoterikDiamorfosiAnakenisi/andriani/1.jpg">
-					<img src="actualPics/esoterikDiamorfosiAnakenisi/andriani/2.jpg">
-					<img src="actualPics/esoterikDiamorfosiAnakenisi/andriani/3.jpg">
-					<img src="actualPics/esoterikDiamorfosiAnakenisi/andriani/4.JPG">
-					<img src="actualPics/esoterikDiamorfosiAnakenisi/andriani/5.jpg">
-					<img src="actualPics/esoterikDiamorfosiAnakenisi/andriani/6.JPG">
-					<img src="actualPics/esoterikDiamorfosiAnakenisi/andriani/7.JPG">
+					<img data-target="#myCarousel" data-slide-to="0" src="actualPics/esoterikDiamorfosiAnakenisi/andriani/1.jpg">
+					<img data-target="#myCarousel" data-slide-to="1" src="actualPics/esoterikDiamorfosiAnakenisi/andriani/2.jpg">
+					<img data-target="#myCarousel" data-slide-to="2" src="actualPics/esoterikDiamorfosiAnakenisi/andriani/3.jpg">
+					<img data-target="#myCarousel" data-slide-to="3" src="actualPics/esoterikDiamorfosiAnakenisi/andriani/4.JPG">
+					<img data-target="#myCarousel" data-slide-to="4" src="actualPics/esoterikDiamorfosiAnakenisi/andriani/5.jpg">
+					<img data-target="#myCarousel" data-slide-to="5" src="actualPics/esoterikDiamorfosiAnakenisi/andriani/6.JPG">
+					<img data-target="#myCarousel" data-slide-to="6" src="actualPics/esoterikDiamorfosiAnakenisi/andriani/7.JPG">
 				</div>
 				<!-- div containing enlarged thumbnails -->
-				<div id="enlarged_thumbnail" class="col-md-7 text-center">
-					<div class="row">
-						<div class="col-md-12">
-							<img src="actualPics/esoterikDiamorfosiAnakenisi/andriani/1.jpg">
-						</div>
-					</div>
-					<div class="row">
+				<div id="myCarousel" class="carousel col-md-7" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1"></li>
+				    <li data-target="#myCarousel" data-slide-to="2"></li>
+				    <li data-target="#myCarousel" data-slide-to="3"></li>
+				    <li data-target="#myCarousel" data-slide-to="4"></li>
+				    <li data-target="#myCarousel" data-slide-to="5"></li>
+				    <li data-target="#myCarousel" data-slide-to="6"></li>
 
-						<div class="col-md-2">
-							<img src="arrows/leftArrow.png">
-						</div>
+				  </ol>
 
-						<div class="col-md-2"></div>
-						<div class="col-md-2"></div>
-						<div class="col-md-2"></div>
-						<div class="col-md-2"></div>
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" role="listbox">
+				    <div class="item active">
+				      <img src="actualPics/esoterikDiamorfosiAnakenisi/andriani/1.jpg" alt="1">
+				    </div>
+				    <div class="item">
+				      <img src="actualPics/esoterikDiamorfosiAnakenisi/andriani/2.jpg" alt="2">
+				    </div>
+				    <div class="item">
+				      <img src="actualPics/esoterikDiamorfosiAnakenisi/andriani/3.jpg" alt="3">
+				    </div>
+				    <div class="item">
+				      <img src="actualPics/esoterikDiamorfosiAnakenisi/andriani/4.JPG" alt="4">
+				    </div>
+				    <div class="item">
+				      <img src="actualPics/esoterikDiamorfosiAnakenisi/andriani/5.JPG" alt="4">
+				    </div>
+				    <div class="item">
+				      <img src="actualPics/esoterikDiamorfosiAnakenisi/andriani/6.JPG" alt="4">
+				    </div>
+				    <div class="item">
+				      <img src="actualPics/esoterikDiamorfosiAnakenisi/andriani/7.JPG" alt="4">
+				    </div>
+				  </div>
 
-						<div class="col-md-2">
-							<img src="arrows/rightArrow.png">
-						</div>
-
-					</div>
-					
+				  <!-- Left and right controls -->
+				  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
 				</div>
-			</div>
 		</div>
 	</div>
 

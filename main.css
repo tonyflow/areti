@@ -14,13 +14,6 @@ body{
 	font-size: 60px;
 }
 
-/*.row .menu .col-md-2 p{
-	padding-left: 10px;
-}*/
-
-/*.col-md-2{
-	width: 150px;
-}*/
 
 a{
 	color: inherit;
@@ -34,7 +27,9 @@ a{
 	background-image: url("x2_opaque.jpg");
 	background-size: fit;
 	padding: 20px 10px 10px 20px;
+	right: 40px;
 }
+
 
 footer{
 	margin-top: 30px;

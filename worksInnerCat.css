@@ -16,3 +16,7 @@ img:hover{
 p{
 	margin-top: 0px;
 }
+
+.col-md-10{
+	right: 40px;
+}

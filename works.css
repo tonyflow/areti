@@ -1,6 +1,7 @@
 #thumbnails img{
 	height: 35px;
 	width: 35px;
+	padding-bottom: 3px;
 }
 
 #thumbnails img:hover{

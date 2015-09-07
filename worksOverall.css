@@ -1,28 +1,10 @@
-.row .col-md-10 .row .col-md-3 .row .col-md-12 img{
-	width: 70%;
-	height: 350px;
+
+
+.row .col-md-10 .row .col-md-3 .row .col-md-12 img,.row .col-md-10 .row .col-md-4 .row .col-md-12 img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.row .col-md-10 .row .col-md-4 .row .col-md-12 img{
-	width: 50%;
-	height: 350px;
-	
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 30px;
-}
 
-
-
-img:hover{
-	opacity: 0.6;
-}
-
-#description{
-	margin-top: 15px;
-}
 

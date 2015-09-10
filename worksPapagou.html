@@ -14,16 +14,13 @@
 
   		$(document).ready(function(){
 			
-			//alert("content window's height is :: "+$("#enlarged_thumbnail .row .col-md-12").height());
-			//alert("content window's width is :: "+$("#enlarged_thumbnail .row .col-md-12").width());
-			//alert("content img's height is :: "+$("#enlarged_thumbnail .row .col-md-12 img").height());
-			//alert("content img's width is :: "+$("#enlarged_thumbnail .row .col-md-12 img").width());
+			
 
   			$("#thumbnails img").click(function(){
-  				$("#enlarged_thumbnail .row .col-md-12 img:last-child").remove();
+  				$("#enlarged_thumbnail .row .col-md-12 col-sm-12 col-xs-12 img:last-child").remove();
   				var src=$(this).attr('src');
-  				$("#enlarged_thumbnail .row .col-md-12").prepend('<img class="img-responsive" src="'+src+'">');
-  				$("#enlarged_thumbnail .row .col-md-12 img").css("display","none");
+  				$("#enlarged_thumbnail .row .col-md-12 col-sm-12 col-xs-12").prepend('<img class="img-responsive" src="'+src+'">');
+  				$("#enlarged_thumbnail .row .col-md-12 col-sm-12 col-xs-12 img").css("display","none");
   				
   				$("#enlarged_thumbnail img").fadeIn(3000);
   			});
@@ -41,21 +38,21 @@
 
 	<div class="row">
 		<!-- menu div -->
-		<div class="menu col-md-2 text-center">
+		<div class="menu col-md-2 col-sm-2 col-xs-2 text-center">
 			 <a href="main.html"><p>Αρχική</p></a> 
 			 <a href="worksOverall.html"><p>Επιλογή Έργων</p></a>
 			 <a href="contact.html"><p>Επικοινωνία</p></a> 
 		</div>
 
 		<!-- content div -->
-		<div id="side_container" class="col-md-10">
+		<div id="side_container" class="col-md-10 col-sm-10 col-xs-10">
 			<div class="row">
 				<!-- div containing work description -->
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-3 col-xs-3">
 					<!--<p>Είναι μια νέα κατοικία στου Παπάγου, η οποία αποτελείται απο 4 ορόφους και 2 υπόγεια και πισίνα στον υπαίθριο χώρο</p>-->
 				</div>
 				<!-- div containing thumbnails corresponding to each work -->
-				<div id="thumbnails" class="col-md-2">
+				<div id="thumbnails" class="col-md-2 col-sm-2 col-xs-2">
 					<img data-target="#myCarousel" data-slide-to="0" src="actualPics/papagou/1.jpg">
 					<img data-target="#myCarousel" data-slide-to="1" src="actualPics/papagou/2.jpg">
 					<img data-target="#myCarousel" data-slide-to="2" src="actualPics/papagou/3.jpg">
@@ -86,7 +83,7 @@
 				</div>
 
 
-				<div id="myCarousel" class="carousel col-md-7" data-ride="carousel" data-interval="false">
+				<div id="myCarousel" class="carousel col-md-7 col-sm-7 col-xs-7" data-ride="carousel" data-interval="false">
 				  <!-- Indicators -->
 				  <ol class="carousel-indicators">
 				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
